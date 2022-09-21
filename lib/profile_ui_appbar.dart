@@ -49,7 +49,7 @@ class _ProfileUiState extends State<ProfileUi> {
                   height: 15,
                 ),
                 Text(
-                  'Hafis Av',
+                  'Shami',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
