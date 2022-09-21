@@ -9,13 +9,14 @@ class ProfileUi extends StatefulWidget {
   @override
   State<ProfileUi> createState() => _ProfileUiState();
 }
-
+// profile page
 class _ProfileUiState extends State<ProfileUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 27, 25, 25),
         appBar: AppBar(
+          
           leading: BackButton(color: Colors.white),
           backgroundColor: Colors.transparent,
           elevation: 0,
